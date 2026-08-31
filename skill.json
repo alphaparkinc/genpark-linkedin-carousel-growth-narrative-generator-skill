@@ -1,0 +1,41 @@
+{
+  "name": "genpark-linkedin-carousel-growth-narrative-generator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - LinkedIn carousel growth narrative generator synthesizing swipe-optimized visual cards and PDF presentation slides.",
+  "author": "genpark",
+  "category": "social-growth",
+  "tags": [
+    "linkedin-carousel",
+    "social-media-post",
+    "visual-storytelling",
+    "pdf-carousel",
+    "growth-marketing"
+  ],
+  "inputs": {
+    "topic": {
+      "type": "string"
+    },
+    "target_slide_count": {
+      "type": "integer"
+    },
+    "visual_color_palette": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "carousel_generation_id": {
+      "type": "string"
+    },
+    "slides_rendered_count": {
+      "type": "integer"
+    },
+    "hook_engagement_score_pct": {
+      "type": "number"
+    },
+    "multi_page_pdf_carousel_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
